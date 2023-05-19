@@ -14,6 +14,7 @@ public class Module
             return;
 
         GObject.Module.Initialize();
+        GLib.Module.Initialize();
 
         NativeLibrary.SetDllImportResolver(typeof(Module).Assembly, Resolve);
         Internal.TypeRegistration.RegisterTypes();

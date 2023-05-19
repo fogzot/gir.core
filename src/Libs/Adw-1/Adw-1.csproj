@@ -1,5 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
+    <ProjectReference Include="..\Gio-2.0\Gio-2.0.csproj" />
+    <ProjectReference Include="..\GObject-2.0\GObject-2.0.csproj" />
     <ProjectReference Include="..\Gtk-4.0\Gtk-4.0.csproj" />
   </ItemGroup>
 

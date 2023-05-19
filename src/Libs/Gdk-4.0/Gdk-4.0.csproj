@@ -5,6 +5,7 @@
     <ProjectReference Include="..\Gio-2.0\Gio-2.0.csproj" />
     <ProjectReference Include="..\GObject-2.0\GObject-2.0.csproj" />
     <ProjectReference Include="..\Pango-1.0\Pango-1.0.csproj" />
+    <ProjectReference Include="..\PangoCairo-1.0\PangoCairo-1.0.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

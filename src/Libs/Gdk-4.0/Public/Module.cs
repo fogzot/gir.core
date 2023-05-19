@@ -13,6 +13,11 @@ public class Module
             return;
 
         GObject.Module.Initialize();
+        GdkPixbuf.Module.Initialize();
+        Gio.Module.Initialize();
+        Cairo.Module.Initialize();
+        Pango.Module.Initialize();
+        PangoCairo.Module.Initialize();
 
         Internal.ImportResolver.RegisterAsDllImportResolver();
         Internal.TypeRegistration.RegisterTypes();
